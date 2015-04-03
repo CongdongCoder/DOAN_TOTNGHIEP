@@ -1,0 +1,108 @@
+
+-------------- Mongodb -------------- 
+
+1. Ứng dụng demo: Quản lý công việc
+	CSDL: Mongodb 
+		+ Cài đặt: 
+			* Mongodb: http://www.mongodb.org/downloads
+		+ Câu lệnh tạo database
+		+ Câu lênh thêm/ xoá/ sữa CSDL.
+		+ Truy vấn CSDL.
+
+2. Khái niệm cơ bản trong MongoDB:
+		+ NoSQL
+		+ Bảng, cột.
+	@Kỹ: Công dụng MongoDB:
+		+ Tốc độ truy vấn dữ liệu tốt.
+		+ Dễ dàng thêm cột, thêm bảng.
+		+ Cột trong bang có thể là 1 bảng.
+	@end Kỹ
+		+ Bảo mật tốt.
+
+3. Ứng dụng C# 
+				( Nâng cao: Tạo server socket để chuyển dữ liệu cho Client Android đồng bộ ( không cần internet)
+				C#: Phát wifi
+				Android kết lên tới wifi của C#
+				-> Thực hiện socket truyền dữ liệu )
+
+		+ Kết nối tới CSDL MongoDB
+		+ Thêm/ Xoá/ Sửa  CSDL
+		+ Truy vấn CSDL 
+
+4. Ứng dụng Android kết nối webservice 
+	+ Thiết kế layout bên PTS.
+	+ Thiết kế resrouce hình ảnh ( button, . . )
+	+ 
+	Webservice: C#
+		+ Cài đặt IIS.
+		+ Tạo thư mục để IIS và Webservice trỏ vào.
+		+ Code chức năng 
+			* Phân tích chức năng Client cần để webservice cung cấp
+			* Code các hàm chức năng(Tối ưu thuật toán xử lý.)
+		+ Publish
+	Chức năng: 
+			+ Đăng nhập
+			+ Đăng ký User
+
+
+FIle: 
+	.txt,.plist 	-> đường dẫn file
+	XML, Json
+
+Hệ quản trị CSDL 
+	SQL server, mySQL, Acsces, . . .
+
+Document:
+	+ MongoDB with C#.NET: http://www.codeproject.com/Articles/321741/MongoDB-with-C-NET
+
+	+ http://diendan.congdongcviet.com/threads/t203627::co-phai-mongodb-luon-chay-nhanh-hon-mysql.cpp
+
+	+ Hệ quản trị CSDL NOSQL: http://vietcloud.net/thong-tin/A7/0/co-so-du-lieu-nosql-khong-the-thieu-cho-ung-dung-web.aspx
+
+	+ http://nodejs.vn/topic/17/tổng-quan-về-mongodb
+
+	+ http://diendan.congdongcviet.com/threads/t203627::co-phai-mongodb-luon-chay-nhanh-hon-mysql.cpp
+
+	+ http://laptrinh.vn/d/4150-nosql-la-gi.html
+
+	+ http://vietcloud.net/thong-tin/A7/0/co-so-du-lieu-nosql-khong-the-thieu-cho-ung-dung-web.aspx
+
+
+Chức năng: 
+	+ Lưu lại bộ nhớ tạm để load lại trạng thái sử dụng ứng dụng sau khi tắt.
+
+-----------App quản lý công việc-----------
+Người dùng nhập công việc hàng ngày, 
+có đồ ưu tiên của mỗi công việc
+Cho phép tăng giảm độ ưu tiên
+Chọn màu cho từng công việc trong danh sách
+
+Nhắc nhở công việc sắp tới trogg ngày  mai.
+Mời user khác vào công việc của mình.
+
+Cho phép add user người quản lý vào.
+
+// Phiên bảng 
+	- Di động
+	- Web 
+	- Desktop 
+
+//------
+Dữ liệu lưu offline -> Sqlite 
+Có cơ chế đồng bộ để lưu trữ online, ( giới hạn dung lượng nếu sài free, )
+
+Ưu điểm của ápp:
+	- Bạn nghĩ rằng đối với bản thân thời gian mỗi ngày của bạn là nhiều hay ít? Có đủ để bạn thực hiện những việc hằng ngày? Và đối với việc quản lý thời gian trong ngày đã ổn chưa? Nếu thời gian để làm việc thì trong 1 ngày sẽ "không đủ", nếu 1 ngày bạn không làm gì cả thì cả 1 ngày là 1 khoản thời gian "khá dài dẵng"? 
+	- Có lúc nào bạn thấy mình còn cả "1 đống việc" cần làm, nhưng nhất thời lại không biết chọn việc nào để làm?
+	- Bạn cần 1 sự sắp xếp các công việc, muốn biết được sự ưu tiên của các công việc? cần
+
+
+	- Nhiều lúc có thời gian rãnh nhiều mà suy nghĩ không biết làm gì? Đôi lúc có nhiều việc nhưng nhất thời lại không chọn được 1 việc để thực hiện?
+	Bạn cần 1 sự rõ ràng, cần sự chính xác về dealine của công việc để biết sự ưu tiên để chọn công việc khi quyết định thực hiện nó?
+
+@Vân:
+	- Bạn làm gì trong 24 tiếng đồng hồ trôi qua. Là cuống cuồng với mớ công việc chất cao như núi và trong đầu luôn văng vẳng câu "không  xong rồi, phải làm sao đây !"? hay cứ ngồi và  đếm thời gian lê thế trôi  qua từng giây từng phút?
+	- Là bạn có quá nhiều việc để làm đến mức bạn không biết nên làm cái gì, hay bạn mệt mỏi với việc phải chạy theo thời gian đến mức không muốn làm bất cứ việc gì nữa. 
+	- Tất cả chỉ là THỜI GIAN. Nếu bạn học được cách làm chủ nó, cuộc sống của bạn sẽ trở nên "dễ thở" hơn rất nhiều. Không chỉ là mớ công việc vẫn đeo bám bạn, mà mọi vấn đề sẽ được giải quyết chỉ trong 1 phút 30s 
+Để thời gian kéo lê, hay nắm quyền điều khiển nó, tất cả là do bạn.Còn chần chừ gì mà không lên kế hoạch quản lý thời gian cho riêng mình!!!!!
+@End 
